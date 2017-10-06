@@ -25,13 +25,13 @@ In order to add more movies to the webpage, open up the entertainment_center.py 
 
 For example to add new a movie, add the following to the entertainment_center.py file
 
-'''
+'''python
 movie_name = media.Movie('movie_name','movie_synopsis','movie_poster_url','movie_youtube_trailer_url')
 '''
 
 and the then add the new movie instance to the movies list
 
-'''
+'''python
 movies = [movie_name]
 '''
 
