@@ -13,5 +13,5 @@ spider_man_3 = media.Movie("Spider-Man 3", "Peter Parker (Tobey Maguire) and M.J
 #add all objects into a list
 movies = [toy_story,matrix, titanic, star_wars_new_hope, whip_lash,spider_man_3]
 
-#
+#pass list of movies in order to open up webpage
 fresh_tomatoes.open_movies_page(movies)
