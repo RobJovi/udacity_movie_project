@@ -26,18 +26,17 @@ In order to add more movies to the webpage, open up the entertainment_center.py 
 For example to add new a movie, add the following to the entertainment_center.py file
 
 '''
-    movie_name = media.Movie('movie_name','movie_synopsis','movie_poster_url','movie_youtube_trailer_url')
-
+movie_name = media.Movie('movie_name','movie_synopsis','movie_poster_url','movie_youtube_trailer_url')
 '''
 
 and the then add the new movie instance to the movies list
 
 '''
-    movies = [movie_name]
+movies = [movie_name]
 '''
 
 Contributing
 ------------
 
-The fresh_tiomatoes.py file and code was provided [here](https://github.com/udacity/ud036_StarterCode)
+The fresh_tomatoes.py file and code was provided [here](https://github.com/udacity/ud036_StarterCode)
 
